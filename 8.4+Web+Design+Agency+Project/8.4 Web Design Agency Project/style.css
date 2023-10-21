@@ -8,10 +8,14 @@ body {
 }
 .main {
   flex: 1;
+  /* display: inlines; */
 }
 
 h1 {
   font-size: 5rem;
+}
+.card {
+  display: inline;
 }
 
 footer {
