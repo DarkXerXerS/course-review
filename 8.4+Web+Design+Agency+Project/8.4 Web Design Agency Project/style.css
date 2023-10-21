@@ -38,3 +38,20 @@ img.tile-image {
 .card {
   width: 45%;
 }
+@media(max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+
+  h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  }
+
+  img.title-image {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
