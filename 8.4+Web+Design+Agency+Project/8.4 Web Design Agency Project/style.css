@@ -53,5 +53,6 @@ img.tile-image {
   }
   .card {
     width: 100%;
+    display: block;
   }
 }
