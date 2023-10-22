@@ -11,14 +11,48 @@
       font-family: 'Sono', sans-serif;
     }
 
+    .container1 {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10%;
+    }
+
   
     .container {
       background-color: antiquewhite;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .paragrapy {
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+
+    .paragrapy1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    ul > li {
+      list-style: none;
+      padding: 10px;
+    }
+
+    button {
+      color: whitesmoke;
+      background-color: orange;
+      border: none;
+      height: 30px;
+      border-radius: 7px;
+      cursor: pointer;
     }
 
     /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width: 1250px) {
-      
+    @media (max-width: 600px) {
+      .co
     }
   </style>
 </head>
@@ -26,8 +60,8 @@
 <body>
   <section class="container1">
   <section class="container">
-    <p>Basic</p>
-    <p>$11.99/month</p>
+    <p class="paragrapy">Basic</p>
+    <p class="paragrapy1">$11.99/month</p>
     <ul>
       <li>✅ 10GB Storage</li>
       <li>✅ 1 User</li>
@@ -37,8 +71,8 @@
   </section>
 
   <section class="container">
-    <p>Standard</p>
-    <p>$19.99/month</p>
+    <p class="paragrapy">Standard</p>
+    <p class="paragrapy1">$19.99/month</p>
     <ul>
       <li>✅ 50GB Storage</li>
       <li>✅ 5 Users</li>
@@ -48,8 +82,8 @@
   </section>
 
   <section class="container">
-    <p>Premium</p>
-    <p>$49.99/month</p>
+    <p class="paragrapy">Premium</p>
+    <p class="paragrapy1">$49.99/month</p>
     <ul>
       <li>✅ 100GB Storage</li>
       <li>✅ 10 Users</li>
