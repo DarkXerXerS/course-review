@@ -19,9 +19,10 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    /* css style here */
     .container {
       display: grid;
-      height: 748px;
+      /* height: 748px; */
       background-color: #000;
       grid-template-columns: 347px 198px 153px 50px;
       grid-template-rows: 443px 130px 155px 20px;
@@ -33,6 +34,14 @@
     }
     .two {
       background-color: #F0F1EC;
+      grid-column: 2 / span 3;
+    }
+    .three {
+      background-color: #F0F1EC;
+      grid-row: 2 / span 3;
+    }
+    .four {
+      background-color: #F0F1EC;
     }
     .five {
       background-color: #004592;
@@ -43,6 +52,12 @@
     }
     .seven {
       background-color: #232629;
+    }
+    .eight {
+      background-color: #F0F1EC;
+    }
+    .nine {
+      background-color: #F0F1EC;
     }
 
   </style>
@@ -58,6 +73,8 @@
 <div class="div five"></div>
 <div class="div six"></div>
 <div class="div seven"></div>
+<div class="div eight"></div>
+<div class="div nine"></div>
   </div>
 </body>
 
